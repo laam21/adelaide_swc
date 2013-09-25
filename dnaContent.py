@@ -4,7 +4,7 @@ def nucleotideContent(dnaString):
     string inside a dictionary, where each key refers to    
     a nucleotide    
     '''    
-    dnaDict = {}    
+    dnaDict = {}   # a comment 
     uniques=set(dnaString)    
     for nucleotide in uniques:    
         dnaDict[nucleotide]=dnaString.count(nucleotide)    
